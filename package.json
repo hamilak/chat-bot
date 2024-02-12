@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@nestjs/serve-static": "^4.0.1",
+    "dotenv": "^16.4.2",
+    "react-router-dom": "^6.22.0",
+    "turbo": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/backend/dist/main",
+    "lint": "eslint . --ext .ts --ext .tsx",
+    "lint-and-fix": "eslint . --ext .ts --ext .tsx --fix",
+    "format": "prettier --write . --ext .ts --ext .tsx"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
