@@ -1,8 +1,11 @@
 {
   "dependencies": {
     "@nestjs/serve-static": "^4.0.1",
+    "@rsuite/icons": "^1.0.3",
+    "axios": "^1.6.7",
     "dotenv": "^16.4.2",
     "react-router-dom": "^6.22.0",
+    "rsuite": "^5.53.2",
     "turbo": "^1.12.3"
   },
   "scripts": {
