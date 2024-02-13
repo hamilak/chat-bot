@@ -13,7 +13,7 @@ dotenvConfig({ path: '.env' });
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../../', 'frontend', 'dist'),
     }),
-    ChatModule
+    ChatModule,
   ],
   controllers: [AppController],
   providers: [AppService],

@@ -8,7 +8,6 @@ export class ChatController {
   @Post()
   async chatCompletion(@Body('chats') chats) {
     const result = await this.chatService.chatCompletion(chats);
-    console.log(result);
-    return result;
+    return { output: result };
   }
 }
